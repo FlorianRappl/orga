@@ -1,0 +1,17 @@
+{
+    "boxes": [
+        {
+            "id": "",
+            "type": "",
+            "content": [
+                ""
+            ],
+            "source": "",
+            "target": "",
+            "labels": [
+                "Keramik",
+                "Glas"
+            ]
+        }
+    ]
+}

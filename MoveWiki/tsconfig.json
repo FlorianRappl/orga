@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "target": "es6",
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "outDir": "./dist",
+      "skipLibCheck": true,
+      "lib": ["dom", "es2018"],
+      "moduleResolution": "node",
+      "module": "CommonJS",
+      "jsx": "react",
+      "importHelpers": true
+    },
+    "include": [
+      "./src"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

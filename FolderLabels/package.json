@@ -1,0 +1,31 @@
+{
+  "name": "@orga/folder-labels",
+  "version": "1.0.0",
+  "description": "A small label maker utility for office folders.",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "orga",
+    "react",
+    "pdf",
+    "folder",
+    "labels"
+  ],
+  "author": "Florian Rappl",
+  "license": "MIT",
+  "dependencies": {
+    "@react-pdf/renderer": "^1.6.10",
+    "rc": "1.2.8",
+    "react": "^16.13.1",
+    "tslib": "2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "typescript": "^3.9.7"
+  }
+}
